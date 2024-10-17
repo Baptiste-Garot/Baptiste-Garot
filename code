@@ -1,0 +1,99 @@
+"""
+Baptiste GAROT
+
+TP-04
+"""
+
+"""
+Activité 1
+"""
+
+def elements_pairs(liste):
+    mon_tab = []
+    # crée une liste vide
+    for nbr in liste:
+    # faire le tour de la liste
+        if nbr % 2 == 0:
+        # savoir si le nombre dans la liste est pair
+            mon_tab.append(nbr)
+            # ajouter le nombre a la liste
+    return mon_tab
+    # renvoie la liste
+
+"""
+Activité 2
+"""
+
+"""
+def fusion_listes_triees(liste1, liste2):
+    saut_1 = 0
+    saut_2 = 0
+    liste_triees = []
+    while saut_1 > len(liste1) and saut_2 > len(liste2):
+        if liste2[saut]:
+            liste_triees.append()
+        else:
+            liste_triees.append(liste2[saut])
+    return liste_triees
+"""
+
+# Test
+# print(fusion_listes_triees([1, 3, 5], [2, 4, 6]))
+# affiche [1, 2, 3, 4, 5, 6]
+
+"""
+Activité 3
+"""
+
+def deuxieme_plus_grand(liste):
+    nbr_deuxieme = liste[0]
+    nbr_plus = liste[0]
+    for nbr in liste:
+        if nbr > nbr_plus:
+            nbr_plus = nbr
+    for nbr2 in liste:
+        if nbr2 > nbr_deuxieme:
+            if nbr2
+        
+    return nbr_deuxieme
+
+# Test
+print(deuxieme_plus_grand([1, 5, 3, 9, 7, 8]))
+# affiche 8
+
+"""
+Acivité 4
+"""
+
+# utiliser split
+
+def compte_mots(texte):
+    # Votre code ici
+    pass
+
+# Test
+#print(compte_mots("bonjour le monde bonjour Python"))
+# affiche {"bonjour": 2, "le": 1, "monde":  1, "Python": 1}
+
+"""
+Activité 5
+"""
+
+def inverse_dictionnaire(dico):
+    # Votre code ici
+    pass
+
+# Test
+#print(inverse_dictionnaire({"a": 1, "b": 2, "c": 3, "d": 4}))
+# affiche {1: "a", 2: "b", 3: "c", 4: "d"}
+
+"""
+Acivité 6
+"""
+
+def fusion_dictionnaires(dico1, dico2):
+    # Votre code ici
+    pass
+
+# Test
+#print(fusion_dictionnaires({"a": 1, "b": 2}, {"b": 3, "c": 4}))
