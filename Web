@@ -1,1 +1,85 @@
-e.g., "Delete Web file to create a directory"
+<!DOCTYPE html>
+<html lang="fr">
+    <head >
+        <meta charset = "utf-8">
+        <title>Top 3 meilleurs Jeux</title> 
+    </head>
+
+    <body>
+        <h1>Les 3 meilleurs Jeux videos qui existe</h1>
+
+        <div class = "Histoire">
+            <h2>Histoire :</h2>
+            <p>
+                L'histoire du jeu vidéo débute dans les années 1950.
+                Les jeux vidéo ne se font connaître du grand public qu'à partir des années 1970 avec la commercialisation des premières bornes d'arcade ainsi que les consoles de jeu vidéo,
+                pouvant faire tourner une dizaine de jeux simplistes. Le jeu vidéo devient alors une industrie, évoluant avec la technologie et marqué par un krach en 1983.
+                Depuis la création des jeux videos de nombreux jeux on été inventer, <br>
+                nous allons faire une liste des 3 meilleurs jamais créé :
+            </p>
+        </div>
+
+        <div class = "Jeux">
+            <h2>Jeux :</h2>
+            <Ol>
+                <li>
+                    <h3>Hollow Knight</h3>
+                    <img src = "image/Hollow_knight.jpeg" alt = "image d'Hollow knight"> <br>
+                    Hollow Knight est un jeu vidéo indépendant de type metroidvania développé et édité par Team Cherry. <br>
+                    Il est sans conteste le meilleur jeux jamais créé pour les raisons suivente :
+                    <ul>
+                        <li>
+                            Monde ouvers riche et immense
+                        </li>
+                        <li>
+                            Bestiaire varier et histoire complex
+                        </li>
+                        <li>
+                            mechanique varier et amusante
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Nine sols</h3>
+                    <img src = "image/Nine_sols.jpeg" alt = "image de Nine sols"> <br>
+                    Nine Sols est un jeu d'action-plateforme 2D riche en histoire et dessiné à la main. <br>
+                    Il est le digne successeure d'Hollow knight pour les raisons suivente :
+                    <ul>
+                        <li>
+                            Design fait a la main et magnifique
+                        </li>
+                        <li>
+                            systeme de parade tres satisfaisant
+                        </li>
+                        <li>
+                            histoire intrigante 
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Sekiro</h3>
+                    <img src = "image/Sekiro.jpeg" alt = "image de Nine sols"> <br>
+                    Sekiro est un jeu vidéo d'action-aventure développé par FromSoftware et édité par Activision. <br>
+                    Il est considérer comme le meilleur souls games de from software pour les raisons suivente :
+                    <ul>
+                        <li>
+                            Difficile mais a la hauteur des from software
+                        </li>
+                        <li>
+                            Thème et décore excelent
+                        </li>
+                        <li>
+                            Boss nombreux est gratifiant a vaincre
+                        </li>
+                    </ul>
+                </li>
+            </Ol>
+        </div>
+        <div class = "Conclution">
+            <h2>Conclution :</h2>
+            <p>
+                Ces 3 jeux sont les meilleurs pour les raisons qui ont été donnée mais aussi car ce sont des jeux que je porte dans mon coeur
+            </p>
+        </div>
+    </body>
+</html>
