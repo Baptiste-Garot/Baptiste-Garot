@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ff0000;
+}
+
+.Jeux {
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#histoire {
+    color: #444444;
+    text-align: left;
+}
+
+.Hollow_knight {
+    background-color: aqua;
+}
