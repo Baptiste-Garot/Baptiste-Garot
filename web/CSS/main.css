@@ -23,6 +23,8 @@ img {
 .genre {
     border-radius: 20px;
     background-color: rgb(27, 151, 213);
+    border: 100px;
+    border-color: black;
 }
 
 h1 {
@@ -47,7 +49,7 @@ h1 {
 
 .bar .logo {
     background-color:red;
-    border-width: 100px;
+    border: 3px solid;
     border-color: black;
     border-radius: 4px;
     padding: 5px;
@@ -66,8 +68,17 @@ h1 {
     list-style: none;
 }
 
+.bar li {
+    border: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: black;
+}
+
 .bar a,.sommaire a {
     text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
 }
 
 .sommaire{
